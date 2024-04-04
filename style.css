@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: system-ui;
+}
+*::before, *::after {
+    box-sizing: inherit;
+}
+span, a, label {
+    display: inline-block;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+
+}
+
+
+
+.head{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 40px;
+    align-items: center;
+}
+
+.set{
+    border: 1px solid red;
+    /* padding: 10px 12px; */
+    position: relative; 
+}
+
+
+.btn{
+    border: none;
+    background-color: aquamarine;
+    padding: 10px 30px;
+}
+.inset{
+    position: absolute;
+}
+
+.ablink{
+    /* position: absolute; */
+    width: 100%;
+    border-radius: 7px;
+    background-color: aqua;
+    padding: 4px 5px;
+    margin-bottom: 2px;
+}
+
+.menus{
+    align-content: flex-start;
+    width: 30%;
+}
+
+.hide{
+    display: none;
+}
+
+.main{
+    padding: 20px 50px;
+}
+
+.text{
+    font-size: 19px;
+    padding: 5px 15px;
+}
+
+.find{
+    background: none;
+    border: 1px solid green;
+    color:green;
+    font-size: 23px;
+    border-radius: 50%;
+}
+
+.input{
+    padding: 5px 10px;
+    outline: 1pz solid red;
+    border-radius: 10px 0 0 10px ;
+}
+
+.submit{
+    color: red;
+    padding: 5px 10px;
+    background-color: beige;
+    border-radius:0 10px  10px 0;
+    outline: 1pz solid red;
+}
+
+.left{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    align-items: center;
+    justify-content: first baseline;
+    column-gap: 50px;
+}
+
+.right{
+    display: flex;
+    flex-wrap: wrap;
+}
